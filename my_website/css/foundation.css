@@ -69,7 +69,8 @@ sup {
   top: -0.5em; }
 
 img {
-  border-style: none; }
+  border-style: none;
+  padding: 1rem; }
 
 #menu-button {
   font-family: Helvetica, Arial, sans-serif;
@@ -201,12 +202,28 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+
+
+h1 {
+  font-size: medium;
+}
+
 img {
   display: inline-block;
   vertical-align: middle;
   max-width: 100%;
   height: auto;
-  -ms-interpolation-mode: bicubic; }
+  -ms-interpolation-mode: bicubic;
+  }
+
+#headshot {
+  margin: 2rem 1rem 1rem 1rem;
+  height: 15%;
+  width: 15%;
+  border: 5px solid navy;
+  float: left;
+  
+}
 
 textarea {
   height: auto;
@@ -571,7 +588,8 @@ p {
   margin-bottom: 1rem;
   font-size: inherit;
   line-height: 1.6;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+}
 
 em,
 i {
@@ -611,7 +629,8 @@ h1, .h1 {
   font-size: 1.5rem;
   line-height: 1.4;
   margin-top: 0;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+   }
 
 h2, .h2 {
   font-size: 1.25rem;
@@ -629,7 +648,8 @@ h4, .h4 {
   font-size: 1.125rem;
   line-height: 1.4;
   margin-top: 0;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+   }
 
 h5, .h5 {
   font-size: 1.0625rem;
@@ -647,11 +667,19 @@ h6, .h6 {
   h1, .h1 {
     font-size: 3rem; }
   h2, .h2 {
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: bold;
+     }
   h3, .h3 {
     font-size: 1.9375rem; }
   h4, .h4 {
-    font-size: 1.5625rem; }
+    font-size: 1.5625rem;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: bold;
+    background-color: #5e5e5e;
+    margin-top: 1rem;
+    padding-left: 1rem; }
   h5, .h5 {
     font-size: 1.25rem; }
   h6, .h6 {
@@ -3781,7 +3809,9 @@ a.thumbnail {
     color:#0a0a0a;
     background-color: lightskyblue;
     border-radius: 20px;
-    margin-left: 1rem; }
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
   .menu input,
   .menu select,
   .menu a,
