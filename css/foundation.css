@@ -3117,6 +3117,22 @@ a.button:hover, a.button:focus {
   .switch.large input:checked ~ .switch-paddle::after {
     left: 2.75rem; }
 
+  table tr:last-child td:first-child {
+      border-bottom-left-radius: 20px;
+  }
+  
+  table tr:last-child td:last-child {
+      border-bottom-right-radius: 20px;
+  }
+
+  table tr:first-child td:last-child {
+      border-top-right-radius: 20px;
+  }
+
+  table tr:first-child td:first-child {
+      border-top-left-radius: 20px;
+  }
+
 table {
   border-collapse: collapse;
   width: 100%;
@@ -3125,7 +3141,6 @@ table {
   thead,
   tbody,
   tfoot {
-    border: 1px solid #f1f1f1;
     background-color: #fefefe; }
   caption {
     padding: 0.5rem 0.625rem 0.625rem;
@@ -3151,7 +3166,7 @@ table {
     padding: 0.5rem 0.625rem 0.625rem; }
   tbody tr:nth-child(even) {
     border-bottom: 0;
-    background-color: #f1f1f1; }
+    border-radius: 20px; }
   table.unstriped tbody {
     background-color: #fefefe; }
     table.unstriped tbody tr {
